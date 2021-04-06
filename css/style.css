@@ -327,7 +327,7 @@ a {
 }
 
 .rent {
-  padding: 100px 0 175px;
+  padding: 100px 0;
 }
 
 .rent__inner {
@@ -384,5 +384,121 @@ a {
   font-weight: 500;
   font-size: 18px;
   margin-bottom: 27px;
+}
+
+.benefits {
+  padding: 100px 0;
+}
+
+.benefits__inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.benefits__list {
+  width: 310px;
+}
+
+.benefits__list-item {
+  position: relative;
+  text-align: right;
+  padding-right: 26px;
+}
+
+.benefits__list-item::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 2px;
+  width: 16px;
+  height: 16px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: #6C97FD;
+}
+
+.benefits__list-item:nth-child(1), .benefits__list-item:nth-child(7) {
+  margin-right: 10px;
+}
+
+.benefits__list-item:nth-child(2), .benefits__list-item:nth-child(6) {
+  margin-right: 60px;
+}
+
+.benefits__list-item:nth-child(3), .benefits__list-item:nth-child(5) {
+  margin-right: 110px;
+}
+
+.benefits__list-item:nth-child(4) {
+  margin-right: 160px;
+}
+
+.benefits__list-item + .benefits__list-item {
+  margin-top: 27px;
+}
+
+.benefits__img {
+  max-width: 627px;
+  margin-bottom: 60px;
+}
+
+.benefits__img img {
+  width: 100%;
+}
+
+.benefits__content {
+  width: 300px;
+  text-align: right;
+}
+
+.benefits__text {
+  margin-bottom: 30px;
+}
+
+.benefits__text + .benefits__text {
+  width: 267px;
+  margin-left: auto;
+}
+
+.video-popup {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #800000;
+  border: 1px solid transparent;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  padding: 7px 35px 7px 65px;
+}
+
+.video-popup:hover {
+  color: #800000;
+  background-color: transparent;
+  border: 1px solid #800000;
+}
+
+.video-popup #play {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 25px;
+  top: 13px;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+.video-popup:hover > svg * {
+  fill: #800000;
 }
 /*# sourceMappingURL=style.css.map */
