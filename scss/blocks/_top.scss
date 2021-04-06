@@ -1,8 +1,11 @@
 // top__heading 
+.top {
+  padding: 20px 0 100px;
+}
 
 .top__heading {
   display: flex;
-  padding: 20px 0 50px;
+  padding-bottom: 50px;
 }
 
 .top__content {

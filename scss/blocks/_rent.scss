@@ -1,0 +1,47 @@
+.rent {
+  padding: 100px 0 175px;
+}
+
+.rent__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rent__content {
+  width: 300px;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.rent__title {
+  font-family: $fontTitle;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.rent__item {
+  width: 250px;
+  min-height: 350px;
+  border: 1px solid $colorCorp;
+  text-align: center;
+
+  padding: 0 25px 10px;
+
+  &-number {
+    font-family: $fontTitle;
+    font-weight: 500;
+    font-size: 96px;
+    color: rgba($colorCorp, .2);
+    margin-bottom: 10px; 
+  }
+
+  &-title {
+    font-family: $fontTitle;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 27px;
+  }
+}

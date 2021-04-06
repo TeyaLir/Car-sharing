@@ -89,6 +89,22 @@ a {
   color: #fff;
 }
 
+.application-btn {
+  text-transform: uppercase;
+  background-color: #800000;
+  border: 1px solid transparent;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  padding: 15px 18px;
+}
+
+.application-btn:hover {
+  color: #800000;
+  background-color: transparent;
+  border: 1px solid #800000;
+}
+
 .none {
   display: none;
 }
@@ -141,12 +157,16 @@ a {
   font-size: 18px;
 }
 
+.top {
+  padding: 20px 0 100px;
+}
+
 .top__heading {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 20px 0 50px;
+  padding-bottom: 50px;
 }
 
 .top__content {
@@ -165,22 +185,6 @@ a {
   font-size: 24px;
   max-width: 470px;
   margin: 0 auto 65px;
-}
-
-.application-btn {
-  text-transform: uppercase;
-  background-color: #800000;
-  border: 1px solid transparent;
-  -webkit-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
-  padding: 15px 18px;
-}
-
-.application-btn:hover {
-  color: #800000;
-  background-color: transparent;
-  border: 1px solid #800000;
 }
 
 .top__slider {
@@ -314,5 +318,71 @@ a {
 
 .top__link + .top__link {
   margin-left: 20px;
+}
+
+.rent {
+  padding: 100px 0 175px;
+}
+
+.rent__inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.rent__content {
+  width: 300px;
+  min-height: 350px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.rent__title {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.rent__item {
+  width: 250px;
+  min-height: 350px;
+  border: 1px solid #6C97FD;
+  text-align: center;
+  padding: 0 25px 10px;
+}
+
+.rent__item-number {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-size: 96px;
+  color: rgba(108, 151, 253, 0.2);
+  margin-bottom: 10px;
+}
+
+.rent__item-title {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 27px;
 }
 /*# sourceMappingURL=style.css.map */
