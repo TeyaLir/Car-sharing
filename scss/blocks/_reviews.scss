@@ -1,0 +1,38 @@
+.reviews {
+  padding: 100px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.reviews__item {
+  width: 270px;
+  min-height: 300px;
+  text-align: center;
+  border: 1px solid $colorAccent;
+  background-color: rgba(23, 36, 62, 0.5);
+  padding: 45px 30px;
+  margin-right: 30px;
+
+  &-name {
+    margin-bottom: 45px;
+  }
+}
+
+.reviews__slider {
+  margin-top: 70px;
+}
+
+.reviews__slider .slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin-top: 35px;
+}
+
+.reviews__slider button {
+  background-color: $colorAccent;
+  outline: none;
+  line-height: 12px;
+  margin: 0 5px;
+}
