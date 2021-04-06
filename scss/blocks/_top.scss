@@ -24,20 +24,6 @@
   margin: 0 auto 65px;
 }
 
-.application-btn {
-  text-transform: uppercase;
-  background-color: $colorAccent;
-  border: 1px solid transparent;
-  transition: all .5s;
-  padding: 15px 18px;
-
-  &:hover {
-    color: $colorAccent;
-    background-color: transparent;
-    border: 1px solid $colorAccent;
-  }
-}
-
 .top__slider {
   width: 50%;
 }
