@@ -89,6 +89,10 @@ a {
   color: #fff;
 }
 
+.none {
+  display: none;
+}
+
 .header__inner {
   height: 100px;
   display: -webkit-box;
