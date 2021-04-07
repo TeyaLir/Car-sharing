@@ -1,0 +1,28 @@
+.footer {
+  padding: 75px 0 30px;
+}
+
+.footer__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-item+&-item {
+    margin-left: 30px;
+  }
+
+  &-img {
+    transition: all .2s;
+  }
+
+  &-img:hover {
+    transform: scale(1.25);
+  }
+}
