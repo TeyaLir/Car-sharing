@@ -15,6 +15,10 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
+
+  @media(max-width:375px) {
+    font-size: 14px;
+  }
 }
 
 a {
@@ -32,6 +36,10 @@ a {
     color: $colorAccent;
     background-color: transparent;
     border: 1px solid $colorAccent;
+  }
+
+  @media(max-width:430px) {
+    font-size: 14px;
   }
 }
 

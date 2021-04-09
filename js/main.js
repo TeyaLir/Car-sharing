@@ -4,7 +4,15 @@ $(function(){
     arrows: false,
     dots: true,
     autoplay: true,
-    fade: true
+    fade: true,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          dots: false
+        }
+      },
+    ]
   });
 
   $('.reviews__slider').slick({
@@ -13,6 +21,26 @@ $(function(){
     autoplay: true,
     slidesToShow: 4,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1150,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 890,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+    ]
   });
 
   $(".phone_mask").mask("+7 (999) 999-99-99");
