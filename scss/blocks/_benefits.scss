@@ -179,12 +179,15 @@
     border: 1px solid $colorAccent;
   }
 
-  #play {
+  & svg {
     position: absolute;
     width: 25px;
     height: 25px;
     left: 25px;
     top: 13px;
+  }
+
+  & svg path {
     transition: all .5s;
   }
 

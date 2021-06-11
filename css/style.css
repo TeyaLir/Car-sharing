@@ -957,12 +957,15 @@ a {
   border: 1px solid #800000;
 }
 
-.video-popup #play {
+.video-popup svg {
   position: absolute;
   width: 25px;
   height: 25px;
   left: 25px;
   top: 13px;
+}
+
+.video-popup svg path {
   -webkit-transition: all .5s;
   -o-transition: all .5s;
   transition: all .5s;
